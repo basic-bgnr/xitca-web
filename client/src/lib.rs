@@ -53,7 +53,7 @@ mod uri;
 mod h1;
 
 #[cfg(feature = "http2")]
-mod h2;
+pub mod h2;
 
 #[cfg(feature = "http3")]
 mod h3;
